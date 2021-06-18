@@ -11,7 +11,7 @@ import {
 } from "react-router-dom";
 const NotFound = () => <div className="not_found"><h1>Not Found</h1></div>;
 const Found = () => <div className="not_found"><h1> Found</h1></div>;
-const RouteNotFound = () => <Redirect to={{ state: { notFoundError: true } }} />;
+// const RouteNotFound = () => <Redirect to={{ state: { notFoundError: true } }} />;
 
 const CaptureRouteNotFound = withRouter(({children, location}) => {
   console.log(children, location)
